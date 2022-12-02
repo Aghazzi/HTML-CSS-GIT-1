@@ -13,13 +13,13 @@ a {
   border-left: blue solid 4px;
 }
 
-/* div.messages > :first-child {
-    opacity: 0.5;
-} */
-
-.message:has(.message__time--old) {
+.messages :first-child {
   opacity: 0.5;
 }
+
+/* .message:has(.message__time--old) {
+  opacity: 0.5;
+} */
 
 .message__content {
   line-height: 3pc;

@@ -20,6 +20,24 @@
 
         <form>
           <!-- Your multiple choice goes here -->
+          <fieldset style="display:flex;flex-direction:column;">
+            <legend>Please select all of your dietary requirements</legend>
+            <label for="dietary" id="halal">
+              <input type="checkbox" name="dietary" id="halal" />Halal
+            </label>
+            <label for="dietary" id="kosher">
+              <input type="checkbox" name="dietary" id="kosher" />Kosher
+            </label>
+            <label for="dietary" id="vegetarian">
+              <input type="checkbox" name="dietary" id="vegetarian" />Vegetarian
+            </label>
+            <label for="dietary" id="vegan">
+              <input type="checkbox" name="dietary" id="vegan" />Vegan
+            </label>
+            <label for="dietary" id="gluten free">
+              <input type="checkbox" name="dietary" id="gluten free" />Gluten Free
+            </label>
+          </fieldset>
           <button type="submit">Submit</button>
         </form>
       </main>
